@@ -1,0 +1,45 @@
+.nav {
+  margin-top: 8px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 73px;
+  }
+
+  &__logo {
+    width: 170px;
+    height: 27px;
+    background-image: url('../../Images/podstawowe\ czarne\ 1.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    // background-image: url('../../Images/Frame\ 46.svg');
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    border: 1px #6B778C solid;
+    border-radius: 600px;
+  }
+
+  &__profile-img {
+    width: 43px;
+    height: 43px;
+    background-image: url('../../Images/Frame\ 46.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // border: 1px #6B778C solid;
+    border-radius: 50%;
+    // padding: 2px;
+  }
+}

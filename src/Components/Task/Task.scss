@@ -1,0 +1,43 @@
+.task {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    min-height: 100vh;
+  }
+
+  &__title-container {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    width: 320px;
+    height: 65px;
+    border-radius: 12px 12px 0px 0px;
+    margin-bottom: 1px;
+    background-color: #fff;
+  }
+
+  &__title {
+    color: #242325;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  &__tasks-container {
+    width: 320px;
+    min-height: 100vh;
+    padding-top: 26px;
+    background-color: #fff;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 12px 12px;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #242325;
+    padding: 0 0 15px 25px;
+  }
+}

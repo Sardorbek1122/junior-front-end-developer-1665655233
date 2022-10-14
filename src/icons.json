@@ -1,0 +1,7 @@
+[
+  {
+    "completed": "green-icon",
+    "active": "blue-icon",
+    "blocked": "grey-icon"
+  }
+]

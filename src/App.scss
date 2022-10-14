@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+  background-color: #f4f5f7;
+
+}
+
+.app {
+
+  &__wrapper {
+    width: 1385px;
+    margin: 0 auto;
+  }
+}
